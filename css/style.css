@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding: 20px;
 }
 
 .logo {
@@ -28,28 +29,30 @@
 }
 
 .main {
+  position: relative;
+  padding-top: 80px;
 }
 
 .sentence {
   font-size: 50px;
-  position: relative;
-  top: 48vh;
+  position: absolute;
+  top: 50vh;
+  left: 0vw;
 }
 
 .back {
   background: navy;
-  position: fixed;
+  position: absolute;
   width: 75vw;
   height: 25vh;
-  bottom: 0%;
-  left: 0px;
+  bottom: -70vh;
 }
 
 .image {
-  float: right;
-  position: relative;
-  max-width: 50vw;
+  position: absolute;
+  width: 50vw;
   height: auto;
   z-index: 1;
-  right: 0px;
+  right: 0vw;
+  bottom: -60vh;
 }
